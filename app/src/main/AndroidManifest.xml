@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Created by Baibhab Debnath -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.baibhab.myrestaurant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".layer3" />
+        <activity android:name=".thali" />
+        <activity android:name=".rice" />
+        <activity android:name=".dal" />
+        <activity android:name=".roti" />
+        <activity android:name=".vegetables" />
+        <activity android:name=".egg" />
+        <activity android:name=".chicken" />
+        <activity android:name=".mutton" />
+        <activity android:name=".plain" />
+        <activity android:name=".stuffed" />
+        <activity android:name=".dosa" />
+        <activity android:name=".idli" />
+        <activity android:name=".bada" />
+        <activity android:name=".combo" />
+        <activity android:name=".veg" />
+        <activity android:name=".nonveg"></activity>
+    </application>
+
+</manifest>
